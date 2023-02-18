@@ -1,13 +1,20 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
+import Header from "./components/Header";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Hero from "./components/Hero";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   const [count, setCount] = useState(0);
+  AOS.init();
 
   return (
-    <div className="text-3xl font-bold">
-      <p>Hello tailwind</p>
+    <div className="">
+      <Header />
+      <Hero />
+      <AboutUs />
     </div>
   );
 }
