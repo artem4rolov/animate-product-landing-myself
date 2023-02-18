@@ -11,10 +11,10 @@ const Header = () => {
   const [mobileMenu, setMobileMenu] = React.useState(false);
 
   return (
-    <section data-aos="fade-down" data-aos-duration="1000">
+    <section data-aos="fade-down" data-aos-duration="1000" className="z-20">
       <div className="flex justify-between items-center relative">
         {/* logo and menu + mobile_menu */}
-        <div className="flex flex-1 gap-x-20">
+        <div className="flex flex-1 gap-x-5 lg:gap-x-20 z-10">
           <div>
             <img src={Logo} alt="logo" />
           </div>
@@ -24,11 +24,11 @@ const Header = () => {
           <div
             className={`${
               mobileMenu ? "flex" : "hidden"
-            } top-16 md:hidden absolute w-[100%] justify-center bg-slate-300 transition-all`}
+            } top-16 md:hidden absolute w-[100%] justify-center bg-purple-600`}
             // data-aos={mobileMenu ? "fade-down" : "fade-up"}
             // data-aos-duration="400"
           >
-            <NavMobile />
+            <NavMobile className="-z-20" />
           </div>
         </div>
         {/* button with arrow-right */}

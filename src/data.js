@@ -22,19 +22,19 @@ import { FaYoutube, FaInstagram, FaGithub } from "react-icons/fa";
 export const navigationData = [
   {
     name: "Deliver",
-    href: "#",
+    href: "#deliver",
   },
   {
     name: "About",
-    href: "#",
+    href: "#about",
   },
   {
     name: "Features",
-    href: "#",
+    href: "#features",
   },
   {
-    name: "Signup",
-    href: "#",
+    name: "Testimonials",
+    href: "#testimonials",
   },
 ];
 
@@ -102,6 +102,22 @@ export const testimonialsData = [
     message:
       "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
     delay: "300",
+  },
+  {
+    image: Avatar2Img,
+    name: "Natalia",
+    web: "nataliya.com",
+    message:
+      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+    delay: "600",
+  },
+  {
+    image: Avatar3Img,
+    name: "Vebin",
+    web: "vebin.com",
+    message:
+      "Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.",
+    delay: "900",
   },
   {
     image: Avatar2Img,

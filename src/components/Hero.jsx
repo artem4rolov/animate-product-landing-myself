@@ -6,7 +6,10 @@ const Hero = () => {
   const { title, subtitle, btnText, image } = heroData;
 
   return (
-    <section className="mt-[100px] md:mt-[300px] mb-[200px] md:mb-[400px] relative">
+    <section
+      id="deliver"
+      className="mt-[150px] md:mt-[300px] mb-[200px] md:mb-[400px] relative -z-20"
+    >
       <div className="flex flex-1 flex-col md:flex-row justify-between">
         <div
           className="text-center md:text-left z-10"

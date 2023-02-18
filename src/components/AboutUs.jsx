@@ -7,7 +7,8 @@ const AboutUs = () => {
 
   return (
     <section
-      className="mt-20 md:mt-40"
+      id="about"
+      className="mt-[100px] md:mt-[300px] mb-[200px] md:mb-[400px]"
       data-aos="fade-down"
       data-aos-delay="120"
       data-aos-duration="1100"
